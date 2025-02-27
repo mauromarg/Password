@@ -32,7 +32,7 @@ public class Password {
 
             }
 
-        System.out.println("The new PASSWORD is: "+ pass);
+        System.out.println("The new PASSWORD is: "+ pass.toString());
     }
 
 
