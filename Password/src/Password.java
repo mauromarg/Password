@@ -17,9 +17,6 @@ public class Password {
         char letra;
         int size;
         StringBuilder pass= new StringBuilder();
-
-
-       
         
             try {
                 System.out.println("Say Size of PASSWORD: ");
@@ -45,14 +42,10 @@ public class Password {
                 }
              
                 
-            } catch (Exception e) {
+            } 
+            catch (Exception e) {
                 System.out.println(e);
             } 
-       
-             
-
-            
-
         
     }
 
